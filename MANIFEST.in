@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include usaepay_integration *.css
+recursive-include usaepay_integration *.csv
+recursive-include usaepay_integration *.html
+recursive-include usaepay_integration *.ico
+recursive-include usaepay_integration *.js
+recursive-include usaepay_integration *.json
+recursive-include usaepay_integration *.md
+recursive-include usaepay_integration *.png
+recursive-include usaepay_integration *.py
+recursive-include usaepay_integration *.svg
+recursive-include usaepay_integration *.txt
+recursive-exclude usaepay_integration *.pyc

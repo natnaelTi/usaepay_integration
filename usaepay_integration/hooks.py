@@ -1,5 +1,6 @@
-from . import __version__ as app_version
 from __future__ import unicode_literals
+from frappe import _
+from . import __version__ as app_version
 
 app_name = "usaepay_integration"
 app_title = "Usaepay Integration"

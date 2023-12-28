@@ -79,7 +79,7 @@
  "links": [],
  "modified": "2023-12-11 16:44:47.920158",
  "modified_by": "Administrator",
- "module": "USAePay",
+ "module": "Usaepay Integration",
  "name": "USAePay Lead Source Connection",
  "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",

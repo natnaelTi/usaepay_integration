@@ -1,4 +1,5 @@
 from . import __version__ as app_version
+from __future__ import unicode_literals
 
 app_name = "usaepay_integration"
 app_title = "Usaepay Integration"
@@ -82,6 +83,14 @@ app_license = "MIT"
 # has_permission = {
 #	"Event": "frappe.desk.doctype.event.event.has_permission",
 # }
+
+# Includes all DocTypes listed in fixtures
+# ---------------
+fixtures = [
+	"API Type",
+	"USAePay Available APIs",
+	"USAePay Lead Source Connection"
+]
 
 # DocType Class
 # ---------------
@@ -187,4 +196,7 @@ user_data_fields = [
 # auth_hooks = [
 #	"usaepay_integration.auth.validate"
 # ]
+
+def get_url():
+    return "/api/method/usaepay_integration.usaepay_integration.handle_usaepay_response"
 

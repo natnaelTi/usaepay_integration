@@ -16,7 +16,7 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/usaepay_integration/css/usaepay_integration.css"
-# app_include_js = "/assets/usaepay_integration/js/usaepay_integration.js"
+app_include_js = "/assets/usaepay_integration/js/usaepay_integration.min.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/usaepay_integration/css/usaepay_integration.css"

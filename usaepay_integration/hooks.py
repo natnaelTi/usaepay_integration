@@ -198,6 +198,3 @@ user_data_fields = [
 #	"usaepay_integration.auth.validate"
 # ]
 
-def get_url():
-    return "/api/method/usaepay_integration.usaepay_integration.handle_usaepay_response"
-

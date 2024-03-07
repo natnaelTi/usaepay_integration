@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-19 08:21:36.348622",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "api_type",
+  "api_key",
+  "api_pin",
+  "column_break_khmr",
+  "form_link"
+ ],
+ "fields": [
+  {
+   "fieldname": "api_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "API Type",
+   "options": "USAePay API Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_khmr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "api_key",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "API Key",
+   "reqd": 1
+  },
+  {
+   "fieldname": "api_pin",
+   "fieldtype": "Data",
+   "label": "API PIN",
+   "reqd": 1
+  },
+  {
+   "fieldname": "form_link",
+   "fieldtype": "Data",
+   "label": "Form Link"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-02-19 08:27:16.797137",
+ "modified_by": "Administrator",
+ "module": "Usaepay Integration",
+ "name": "USAePay Available API",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

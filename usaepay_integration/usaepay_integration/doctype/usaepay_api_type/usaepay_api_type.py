@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class USAePayLeadSourceConnection(Document):
+class USAePayAPIType(Document):
 	pass

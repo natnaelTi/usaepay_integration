@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestUSAePayLeadSourceConnection(FrappeTestCase):
+class TestUSAePayAPIType(FrappeTestCase):
 	pass
